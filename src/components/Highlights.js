@@ -24,7 +24,7 @@ const Highlights = () => {
           <div className={`flex flex-row items-start  ${animateList("")}`}>
             <img src="./07.png" className="w-12 h-12 self-center" />
             <li className="list-none text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl  2xl:text-2xl m-6 lg:m-12 xl:m-12 2xl:m-12 bg-white  ">
-              A full-stack developer who love to learn, grow and construct
+              A full-stack developer who love to learn, grow and create
               better designs each time.
             </li>
           </div>
@@ -32,7 +32,7 @@ const Highlights = () => {
           <div className={`flex flex-row items-start ${animateList("1")}  `}>
             <img src="./07.png" className="w-12 h-12 self-center" />
             <li className="list-none text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl  2xl:text-2xl m-6 lg:m-12 xl:m-12 2xl:m-12 bg-white  ">
-              Aproachable and someone who enjoy working in groups.
+              Aproachable and easy to work with, especially in groups.
             </li>
           </div>
 
