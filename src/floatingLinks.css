@@ -1,0 +1,34 @@
+
+
+
+
+.floatingLinks{
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+	animation: floatingIcons 4s ease-in-out infinite;
+    display: inline-block;
+}
+.delay1{
+    animation-delay: 2s;
+}
+.delay2{
+    animation-delay: 2.5s;
+}
+.delay3{
+    animation-delay: 3s;
+}
+
+@keyframes floatingIcons {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: -1px 13px 92px 21px rgba(182,178,178,0.75);
+		transform: translatey(-40px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
